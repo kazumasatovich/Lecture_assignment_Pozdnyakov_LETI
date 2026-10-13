@@ -20,6 +20,7 @@ def identity(n, kind):
     if kind == "БИН":
         return np.eye(n, dtype=bool)
     E = np.full((n, n), INF)
+    np.fill_diagonal(E, 0.0)
     return E
 
 def mul_naive(A, B, kind):
