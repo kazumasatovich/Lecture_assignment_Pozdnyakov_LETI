@@ -18,6 +18,8 @@
 
 `pip install -r requirements.txt`
 
+Установите новый сид в `experiments.py` или оставьте стандартный (174)
+
 Из корня проекта ~/src/matrix_graph
 
 `python3 experiment.py`
