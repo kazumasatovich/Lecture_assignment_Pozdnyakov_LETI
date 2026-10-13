@@ -33,6 +33,7 @@ def random_digraph(n, prob, rng, weights=None):
     np.fill_diagonal(A, 0)
     if weights is not None:
         A = A * rng.integers(weights[0], weights[1] + 1, size=(n, n))
+    return A
 
 def is_strongly_connected(A):
     return nx.is_strongly_connected(nx.from_numpy_array((A != 0).astype(int), create_using=nx.DiGraph))
