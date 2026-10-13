@@ -4,6 +4,22 @@
 
 ## Запуск построения тестового графа (Петерсена)
 
+Клонируйте репозиторий (скачайте все файлы из репозитория, если git не установлен
+
+`git clone git@github.com:kazumasatovich/Lecture_assignment_Pozdnyakov_LETI.git`
+
+Перейдите в папку проекта
+
+`cd Lecture_assignment_Pozdnyakov_LETI`
+
+Создайте виртуальное окружение
+
+`python3 -m venv .venv`
+
+`source .venv/bin/activate`
+
+`pip install -e .`
+
 Установка зависимостей:
 
 `pip install -r requirements.txt`
@@ -13,6 +29,23 @@
 `python3 demo.py`
 
 ## Запуск эксперимента со скоростью работы возведения в степень и проверки корректности алгоритма на графе Петерсена
+
+Клонируйте репозиторий (скачайте все файлы из репозитория, если git не установлен
+
+`git clone git@github.com:kazumasatovich/Lecture_assignment_Pozdnyakov_LETI.git`
+
+Перейдите в папку проекта
+
+`cd Lecture_assignment_Pozdnyakov_LETI`
+
+Создайте виртуальное окружение
+
+`python3 -m venv .venv`
+
+`source .venv/bin/activate`
+
+`pip install -e .`
+
 
 Установка зависимостей:
 
